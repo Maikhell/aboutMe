@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Code */
+.nav {}
+
+/* Navbar Code End */
+
+/* Home  */
+.img-fluid {}
+
+.intro-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.custom-border-bottom {
+    position: relative;
+}
+
+.custom-border-bottom::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-40%);
+    width: 80%;
+    /* Adjust this percentage to set the length of the border */
+    border-bottom: 5px solid rgb(77, 0, 165);
+    /* Adjust the border width and color as needed */
+}
+
+/* Home End */
